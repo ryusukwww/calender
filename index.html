@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit-icons.min.js"></script>
+    <!-- GoogleFont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>Clender</title>
+</head>
+<body  class="uk-margin-top" >
+    <div class="forms uk-container uk-container-xsmall">
+        <div class="uk-margin" >
+            <input id="year" class="uk-input" placeholder="西暦(年)を入力してください" ></input>
+        </div>
+        <div class="uk-margin" >
+            <input id="month" class="uk-input" placeholder="月を入力してください"></input>
+        </div>
+    </div>
+    <div class="forms uk-container uk-container-xsmall">
+        <button id="btn" type="submit" class="uk-button uk-button-primary uk-width-1-1 uk-margin-top">決定</button>
+    </div>
+    <h2 class="calendar-title"><span id="js-year"></span>年 <span id="js-month"></span>月</h2>
+    <table class="calendar-table">
+        <thead>
+            <tr><th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr>
+        </thead>
+        <tbody id="js-calendar-body"></tbody>
+    </table>
+    <script type="text/javascript" src="calender.js"></script>
+</body>
+</html>
+
+
+

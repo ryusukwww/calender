@@ -1,0 +1,23 @@
+.forms{
+    text-align: center;
+}
+.calendar-title {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    color: #666666;
+    }
+.calendar-table {
+    margin: 0 auto;
+    }
+td {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 50px;
+    font-family: 'Sriracha', cursive;
+    }
+.is-today {
+    color: red;
+    }
